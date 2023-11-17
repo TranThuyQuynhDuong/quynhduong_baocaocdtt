@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "tranthuyquynhduong",
   "version": "0.1.0",
   "private": true,
@@ -38,4 +39,17 @@
       "last 1 safari version"
     ]
   }
+=======
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.5",
+        "vite": "^4.0.0"
+    }
+>>>>>>> 059d2787e141ffa2a88278b45ee315a55ad99559
 }
