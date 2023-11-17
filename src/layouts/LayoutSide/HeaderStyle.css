@@ -1,0 +1,64 @@
+.box50
+{
+   
+    width:60px;
+    height:60px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+.myfooter ul
+{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+}
+.myfooter ul>li>a
+{
+    text-decoration: none;
+    color: #fff;
+}
+div {
+  
+  background-size: cover;
+  background-position: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.a:hover {
+  color: red;
+}
+.h:hover {
+  color: red;
+}
+::selection {
+  color: white;
+  background-color: black;
+}
+
+
+.gradient-custom-2 {
+  background: hsla(127, 86%, 57%, 1);
+
+  background: linear-gradient(90deg, hsla(127, 86%, 57%, 1) 0%, hsla(150, 86%, 53%, 1) 47%, hsla(58, 90%, 64%, 1) 95%);
+  
+  background: -moz-linear-gradient(90deg, hsla(127, 86%, 57%, 1) 0%, hsla(150, 86%, 53%, 1) 47%, hsla(58, 90%, 64%, 1) 95%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(127, 86%, 57%, 1) 0%, hsla(150, 86%, 53%, 1) 47%, hsla(58, 90%, 64%, 1) 95%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#34f04a", endColorstr="#21EE88", GradientType=1 );
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
